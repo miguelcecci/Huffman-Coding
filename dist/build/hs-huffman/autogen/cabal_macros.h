@@ -33,6 +33,28 @@
   (major1) == 0 && (major2) == 8 && (minor) <= 6)
 #endif /* MIN_VERSION_binary */
 
+/* package bytestring-0.10.8.2 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.10.8.2"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 8)
+#endif /* MIN_VERSION_bytestring */
+
+/* package directory-1.3.3.0 */
+#ifndef VERSION_directory
+#define VERSION_directory "1.3.3.0"
+#endif /* VERSION_directory */
+#ifndef MIN_VERSION_directory
+#define MIN_VERSION_directory(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 3)
+#endif /* MIN_VERSION_directory */
+
 /* package split-0.2.3.3 */
 #ifndef VERSION_split
 #define VERSION_split "0.2.3.3"
