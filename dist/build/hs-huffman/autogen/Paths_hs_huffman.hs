@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/notoboto/.cabal/bin"
-libdir     = "/home/notoboto/.cabal/lib/x86_64-linux-ghc-8.6.5/hs-huffman-0.1.0.0-FOXHvAgOsp16avumovBoo7-hs-huffman"
+libdir     = "/home/notoboto/.cabal/lib/x86_64-linux-ghc-8.6.5/hs-huffman-0.1.0.0-FOXHvAgOsp16avumovBoo7"
 dynlibdir  = "/home/notoboto/.cabal/lib/x86_64-linux-ghc-8.6.5"
 datadir    = "/home/notoboto/.cabal/share/x86_64-linux-ghc-8.6.5/hs-huffman-0.1.0.0"
 libexecdir = "/home/notoboto/.cabal/libexec/x86_64-linux-ghc-8.6.5/hs-huffman-0.1.0.0"
