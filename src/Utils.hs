@@ -51,3 +51,4 @@ saveTree path tree = encodeFile path tree
 
 loadTree :: String -> IO HuffmanTree
 loadTree path = decodeFile path >>= \x -> return x
+
